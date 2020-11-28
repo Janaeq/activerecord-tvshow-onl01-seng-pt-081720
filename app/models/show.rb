@@ -1,4 +1,6 @@
 require 'pry'
+# Query goes here
+
 
 class Show < ActiveRecord::Base
     def self.highest_rating 
